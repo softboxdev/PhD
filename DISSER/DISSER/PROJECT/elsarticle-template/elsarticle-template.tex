@@ -1,0 +1,297 @@
+\documentclass[review]{elsarticle}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{mathtext}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
+
+\journal{Journal of \LaTeX\ Templates}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Elsevier \LaTeX\ template\tnoteref{mytitlenote}}
+\tnotetext[mytitlenote]{Fully documented templates are available in the elsarticle package on \href{http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle}{CTAN}.}
+
+%% Group authors per affiliation:
+\author{Elsevier\fnref{myfootnote}}
+\address{Radarweg 29, Amsterdam}
+\fntext[myfootnote]{Since 1880.}
+
+%% or include affiliations in footnotes:
+\author[mymainaddress,mysecondaryaddress]{Elsevier Inc}
+\ead[url]{www.elsevier.com}
+
+\author[mysecondaryaddress]{Global Customer Service\corref{mycorrespondingauthor}}
+\cortext[mycorrespondingauthor]{Corresponding author}
+\ead{support@elsevier.com}
+
+\address[mymainaddress]{1600 John F Kennedy Boulevard, Philadelphia}
+\address[mysecondaryaddress]{360 Park Avenue South, New York}
+
+\begin{abstract}
+Привет!
+\end{abstract}
+
+\begin{keyword}
+\texttt{elsarticle.cls}\sep \LaTeX\sep Elsevier \sep template
+\MSC[2010] 00-01\sep  99-00
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+\section{The Elsevier article class}
+
+
+
+
+\section{Вступление}
+
+
+В данной работе ставится \textbf{цель} проанализировать существующие методы, методологии и принципы проектирования, и на основе этого анализа синтезировать новую модель для разработки интеллектуальной системы для проектирования технического, лингвистического, программного обеспечения в области автоматизации систем управления. 
+
+\textbf{Объектом исследования} - процесс проектирования программного обеспечения для автоматизации технологических систем :
+\begin{enumerate}
+  \item по типу транзакционной обработки данных,
+  \item по типу предоставления доступа.
+\end{enumerate}
+
+\textbf{Предмет исследования} :
+\begin{enumerate}
+\item методы  создания, эффективной организации и ведения специализированного информационного и программного обеспечения АСУТП,
+\item средства и методы проектирования и разработки технического, математического, лингвистического и других видов обеспечения АСУ.
+\end{enumerate}
+
+
+Изучаемая система может быть описана в следующем виде:
+\begin{equation}
+    \label{eq:equation29}
+    S =  (X, T, R, Z ) ,
+\end{equation}
+\begin{itemize}
+    \item где $ X $  — множество переменных, 
+    \item $T$ — множество параметров, 
+    \item $R$ — отношения на множества $X$ и $T$, 
+    \item $Z$ — цель исследований т.е. решение проблемы проектирования устойчивой архитектуры программного обеспечения автоматизированной системы управления.
+\end{itemize}
+
+Перейдем к математической модели системы.
+Перед вами слайд с обобщенными алгоритмическими шагами для
+построения системы.
+
+
+    \begin{enumerate}
+        \item \textbf{Формирование базы знаний}
+              \begin{itemize}
+                  \item Синтез обучающей выборки
+                  \item Ранжирование параметров
+              \end{itemize}
+        \item \textbf{Синтез деревьев и классификация}
+              \begin{itemize}
+                  \item Расчет гипергеометрического распределения
+                  \item Синтез деревьев решений
+                  \item Поиск закономерностей критерием максимума взвешенной информативности
+                  \item Взвешенное голосование и классификация
+              \end{itemize}
+        \item \textbf{Формирование рекомендаций}
+              \begin{itemize}
+                  \item Формирование рекомендаций
+                  \item Таблица противоречий методом ТРИЗ
+              \end{itemize}
+    \end{enumerate}
+
+
+Далее на слайде представлена блок схема модели работы системы. Рассмотрим внимательнее данные алгоритмические блоки.
+
+Пусть множество типов информационных систем, описываемых пользователем, как 
+\begin{equation}
+     U=\{u_1,u_2,...,u_n\},
+\end{equation}
+   множество объектов, т.е. предлагаемых архитектур 
+    \begin{equation}
+    P=\{p_1,p_2,...,p_n\},
+    \end{equation}
+    \begin{itemize}
+\item     весовая матрица  $R=r_{i,j}$ размера $n$ $x$ $m$,  $i_{1...n},j_{1...m}$. 
+ \item    $N$ - желаемое количество рекомендаций, которые нужно получить от системы. 
+ \end{itemize}
+
+
+
+    Требуется найти: для описываемого набора типов информационных систем $u$, найти $N $- мерный вектор 
+    \begin{equation}
+    \langle p_{i1},p_{i2},...,p_{iN} \rangle, 
+    \end{equation}
+        \begin{itemize}
+        \item где архитектура $p_{i_k,k}\in N$  подходит по параметрам, т.е. в матрице описания транзакций есть пустое место $r_i,i_k$,
+        \item где эти архитектуры наиболее точно соответствуют базе конюнкционных закономерностей, то есть классам, где $r_i,i_k$ является наибольшим. 
+    \end{itemize}
+     
+
+
+
+Входные данные поступают в виде набора линейно-зависимых, линейно-независимых классов параметров (каналов наблюдения): вычислительные ресурсы (серверное оборудование, сеть, оборудование сопряженное, коммутация, техничесие средства ЭВМ и т .д. 
+
+Взаимодействия между параметрами измеряется согласно следующей формуле по алгоритму квадратичной регрессии:
+
+\begin{equation}
+    \label{eq:equation_FM}
+    \hat{r}_{pc} = w_{0} + \sum_{j=1}^{n} w_{j}x{pcj} + \sum_{j=1}^{n}\sum_{k=1}^{n} w_{jk}x_{pcj}x_{pck}
+\end{equation}
+
+Веса определяются низкоранговым матричным разложением:
+
+\begin{equation}
+    \label{eq:equation_wight}
+    w_{jk} = x_{j}^{T}v_{k}, v_{i} \in \mathbb{R}
+\end{equation}
+
+
+
+Степень принадлежности определяется на основе рангов принадлежности и определяется на основе соотношений следующей системы:
+
+
+
+Линейная модель ранжирования:
+\begin{equation}
+    \label{eq:equation_linear}
+    a(x,w) = \langle x, w \rangle, x \mapsto (f_{1}(x), f_{2}(x), ..., f_{n}(x)) \in \mathbb{R},
+\end{equation}
+
+где $x \mapsto (f_{1}(x), f_{2}(x), ..., f_{n}(x)) \in \mathbb{R}$ - вектор признаков объекта $x$.
+
+Обучающая выборка $(x_{i}, y_{i})^l_{i=1}$, где $y_{i} \in Y = {1<2<...<R}$. Функция ранжирования с параметрами w и порогами $b_0 = -\infty$, $b_{1} \leq ... \leq b_{R-1}, b_{R} = +\infty$:
+
+\begin{equation}
+    \label{eq:equation_rank_function}
+    a(x,w,b) = y, b_{y-1} < g(x,w) \leq b_{y}
+\end{equation}
+
+Ранговая модель, как частный случай линейной модели $g(x,w) = \langle w, x\rangle $, сумма рассчитывается по двум порогам с функцией потерь вида:
+
+\begin{equation}
+    \label{eq:equation_loss_function3}
+    \sum_{i=1}^{l}(1 - \langle w_{i}, x \rangle + b_{y_{i} - 1})_{+} + (1 + \langle x_{i}, w \rangle - b_{y_i})_{+} + \frac{1}{2C}\| w \|^2  \rightarrow min_{\substack{w,b}} 
+\end{equation}
+
+Задача квадратичного программирования, к которому можно привести выражение примет вид:
+
+\begin{equation}
+\label{eq:equation_loss_function4}
+\begin{alignedat}{2}
+\left\{
+\begin{array}{rl}
+    \frac{1}{2}\|w\|^2 + C \sum_{i=1}^{l}[y_i \neq 1]  \xi^{*}_{i} + [y_{i} \neq R]\xi_{i} \rightarrow min_{\substack{w,b,\xi}} \\
+    \langle x_{i}, w \rangle \geq b_{y_{i} - 1} + 1 - \xi^{*}_{i}, \xi^{*}_{i} \geq 0, y_{i} \neq 1 ; \\
+    \langle x_{i}, w \langle \geq b_{y_{i}} - 1 + \xi_{i}, \xi_{i} \geq 0, y_{i} \neq R ;
+\end{array}
+\right.
+\end{alignedat}
+\end{equation}
+
+Двойственная задача $(\lambda^{*}_{i} = 0$ при $y_{i} = 1, \lambda_{i} = 0$ при $y_{i} = R)$
+
+
+Модель ранжирования после решения двойственной задачи:
+
+\begin{equation}
+    \label{eq:rank_model1}
+     \langle w, x \rangle \ = \sum_{i=1}^{l}(\lambda_{i}^{*} - \lambda_{i})K(x, x_{i}) 
+\end{equation}
+
+В такой задаче, функционал является выпуклым, как следствие имеет единственное решение. Множитель $K(x, x_{i})$ отображает возможные нелинейные обобщения $K(x, x_{i}')$. Решение будет разреженным и зависить только от опорных векторов:
+
+
+где a (x,w) - параметрическая модель ранжирования.
+Важным пунктом является, что параметрическая модель ранжирования влияет на деление ветвей внутри дерева. На рисунке представлен Пример работы алгоритма синтеза деревьев представлен на этом слайде.
+
+ 
+Для синтеза деревьев важным критерием выступают коэффициенты ранжирования, т.к. они прямым образом влияют на ветвеление деревьев.
+
+Пусть $X$ - вероятностное пространство , выборка $X^{l}$ - простая, то есть случайная, независимая, одинаково распределенная, $y^{*}(x), \phi(x)$ - случайные величины.
+Допустим, что гипотеза о независимости событий справедлива:
+
+\begin{equation}
+    \label{eq:equation35}
+    \{x: y^*(x) = c\} , \{x: \phi(x) = 1\}
+\end{equation}
+
+Тогда вероятность реализации пары $(p, n)$ возможно выразить через следующее гиперпараметрическое распределение:
+
+\begin{equation}
+    \label{eq:equation36}
+     h\Bigg( 
+    \begin{matrix}
+    p & n \\
+    P & N
+    \end{matrix}
+     \Bigg)
+    =
+    \frac{C_P^p C_N^n}{C^{p+n}_{P+N}}, 0 \leq p \leq P, 0 \leq n \leq N  ,
+\end{equation}
+
+где
+
+\begin{equation}
+    \label{eq:equation37}
+    C^{k}_m = \frac{m!}{k!(m-k)!}, 0 \leq k \leq m.
+\end{equation}
+
+Таким образом, если событие с малой вероятностью реализовалось, то, скорее всего, оно не случайно. Неслучайное событие это и есть закономерность.
+
+Основным постулатом формирования закономерности является следующее утверждение: \textit{если вероятность реализации пары совместных событий, подчиняется гипергеометрическому распределению и она мала, и тем не менее пара событий реализовалась, то гипотеза о независимости отвергается.}\\
+
+Перейдем к результатам оценки качества работы модели.
+На слайде представлен анализ параметров работы модели, первичный анализ параметров предалгается проводить согласно применению матрицы корреляций между параметрами внутри одного класса по обучающей выборке. Таким образом, можно применять методологию ТРИЗ в части выявления противоречий между параметрами.  
+В диссертационной работе в Главе 4 вы можете подробно ознакомиться с результатами ранжирования для всех параметров.
+
+На слайде 17 с синтезом деревьев расчеты статистического расчета критерия принятия или отвержения гипотезы о существовании закономерности между параметрами и отнесения объекта к некоторому классу.
+
+На слайде 18 изображен пример синтеза дерева. Обратите, пожалуйста, внимание, что "ветвеление или разделение" дерева происходит строго по ранжированной оценке параметров. В зависимости от значимости весового коэффициента для класса, принимается решение разделить или не разделить ветвь.
+
+На слайде 19 представлен представлены результаты ранжирования и взаимодействия между параметрами. Рабочая характеристика приемника - метрика, специальный график, позволяющий оценить качество классификации. Т.к. в данной работе велась классификация 24 классов, то суммарно было произведено 276 попарных сочетаний для сравнения рабочей характеристики приемника. В Приложении в диссертационной работы, вы сможете найти результаты каждого попарного сравнения.
+
+
+
+
+\end{document}
+
+\end{document}

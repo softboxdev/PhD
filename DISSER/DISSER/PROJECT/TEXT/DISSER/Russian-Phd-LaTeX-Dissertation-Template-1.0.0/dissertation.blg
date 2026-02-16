@@ -1,0 +1,30 @@
+This is 8-bit Big BibTeX version 0.99d
+Implementation:  C for Unix
+Release version: 3.71 (18 mar 2013)
+
+The 8-bit codepage and sorting file: utf8cyrillic.csf
+The top-level auxiliary file: dissertation.aux
+A level-1 auxilliary file: Dissertation/title.aux
+A level-1 auxilliary file: Dissertation/contents.aux
+A level-1 auxilliary file: Dissertation/introduction.aux
+A level-1 auxilliary file: Dissertation/part1.aux
+A level-1 auxilliary file: Dissertation/part2.aux
+A level-1 auxilliary file: Dissertation/part3.aux
+A level-1 auxilliary file: Dissertation/conclusion.aux
+A level-1 auxilliary file: Dissertation/acronyms.aux
+A level-1 auxilliary file: Dissertation/dictionary.aux
+A level-1 auxilliary file: Dissertation/references.aux
+A level-1 auxilliary file: Dissertation/lists.aux
+A level-1 auxilliary file: Dissertation/appendix.aux
+I found no \citation commands---while reading file dissertation.aux
+I found no \bibdata command---while reading file dissertation.aux
+I found no \bibstyle command---while reading file dissertation.aux
+
+Here's how much of BibTeX's memory you used:
+ Cites:                 0 out of 750
+ Fields:                0 out of 5000
+ Hash table:        10001 out of 10000
+ Strings:              93 out of 10000
+ Free string pool:    776 out of 65000
+ Wizard functions:      0 out of 3000
+(There were 3 error messages)

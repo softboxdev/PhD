@@ -1,0 +1,50 @@
+\changetocdepth {2}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\select@language {russian}
+\tocheader 
+\contentsline {chapter}{Введение}{4}{chapter*.1}
+\contentsline {chapter}{\chapternumberline {1}Систематизация общих проблем}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}Основные определения}{7}{section.1.1}
+\contentsline {section}{\numberline {1.2}Анализ проблем проектирования высоконагруженных систем}{11}{section.1.2}
+\contentsline {section}{\numberline {1.3}Определение проблемы}{12}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Определение типов нагрузки}{13}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Проблема определения понятия высоконагруженных систем}{13}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Идентификация высоконагруженной системы}{15}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Проблемы проектирования высоконагруженных систем}{16}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.5}Заголовки с формулами: \(a^2 + b^2 = c^2\), \(\left \delimiter "026A30C \textrm {{Im}}\Sigma \left ( \varepsilon \right )\right \delimiter "026A30C \approx const\), \(\upsigma _{xx}^{(1)}\) }{16}{subsection.1.3.5}
+\contentsline {section}{\numberline {1.4}Систематизация общих проблем}{19}{section.1.4}
+\contentsline {section}{\numberline {1.5}Обзор существующих средств проектирования высоконагруженных приложений}{20}{section.1.5}
+\contentsline {chapter}{\chapternumberline {2}Длинное название главы, в которой мы смотрим на~примеры того, как будут верстаться изображения и~списки}{21}{chapter.2}
+\contentsline {section}{\numberline {2.1}Одиночное изображение}{21}{section.2.1}
+\contentsline {section}{\numberline {2.2}Длинное название параграфа, в котором мы узнаём как сделать две картинки с~общим номером и названием}{21}{section.2.2}
+\contentsline {section}{\numberline {2.3}Пример вёрстки списков}{23}{section.2.3}
+\contentsline {section}{\numberline {2.4}Традиции русского набора}{24}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Пробелы}{25}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Математические знаки и символы}{25}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Кавычки}{25}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Тире}{26}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Дефисы и переносы слов}{26}{subsection.2.4.5}
+\contentsline {section}{\numberline {2.5}Текст из панграмм и формул}{27}{section.2.5}
+\contentsline {chapter}{\chapternumberline {3}Вёрстка таблиц}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}Таблица обыкновенная}{31}{section.3.1}
+\contentsline {section}{\numberline {3.2}Таблица с многострочными ячейками и примечанием}{32}{section.3.2}
+\contentsline {section}{\numberline {3.3}Таблицы с форматированными числами}{32}{section.3.3}
+\contentsline {section}{\numberline {3.4}Параграф \hbox to.8em{--\hss --}{} два}{33}{section.3.4}
+\contentsline {section}{\numberline {3.5}Параграф с подпараграфами}{34}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Подпараграф \hbox to.8em{--\hss --}{} один}{34}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Подпараграф \hbox to.8em{--\hss --}{} два}{34}{subsection.3.5.2}
+\contentsline {chapter}{Заключение}{37}{chapter*.29}
+\contentsline {chapter}{Список сокращений и условных обозначений}{38}{chapter*.30}
+\contentsline {chapter}{Словарь терминов}{39}{chapter*.31}
+\contentsline {chapter}{Список рисунков}{40}{section*.32}
+\contentsline {chapter}{Список таблиц}{41}{section*.33}
+\contentsline {appendix}{\chapternumberline {А}Примеры вставки листингов программного кода}{42}{appendix.A}
+\contentsline {appendix}{\chapternumberline {Б}Очень длинное название второго приложения, в~котором продемонстрирована работа с~длинными таблицами}{48}{appendix.B}
+\contentsline {section}{\numberline {Б.1}Подраздел приложения}{48}{section.B.1}
+\contentsline {section}{\numberline {Б.2}Ещё один подраздел приложения}{50}{section.B.2}
+\contentsline {section}{\numberline {Б.3}Использование длинных таблиц с окружением \textit {longtabu}}{54}{section.B.3}
+\contentsline {section}{\numberline {Б.4}Форматирование внутри таблиц}{57}{section.B.4}
+\contentsline {section}{\numberline {Б.5}Стандартные префиксы ссылок}{59}{section.B.5}
+\contentsline {section}{\numberline {Б.6}Очередной подраздел приложения}{60}{section.B.6}
+\contentsline {section}{\numberline {Б.7}И ещё один подраздел приложения}{60}{section.B.7}
+\contentsline {appendix}{\chapternumberline {В}Чертёж детали}{61}{appendix.C}
